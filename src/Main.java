@@ -7,6 +7,8 @@ public class Main {
 
         System.out.println(manager.getStudent("Alik"));
 
+        manager.addProfessor("Shopi","Amak",56,2000d);
+
 
     }
 }
