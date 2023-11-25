@@ -5,6 +5,7 @@ public class Main {
       manager.addStudent("Alik","Joniyev",19);
       manager.addStudent("Baxti","Shaxtiyev",23);
 
+        System.out.println(manager.getStudent("Alik"));
 
 
     }
