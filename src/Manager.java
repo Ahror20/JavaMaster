@@ -4,6 +4,7 @@ import java.util.List;
 public class Manager {
     private List<Student> students = new LinkedList<>();
 
+    private List<Professor> professors = new LinkedList<>();
     public void addStudent(String name,String surname,Integer age){
         Student student = new Student();
         student.setName(name);
@@ -22,5 +23,10 @@ public class Manager {
             }
         }
         return null;
+    }
+
+    public void addProfessor(String name,String surname,Integer age,Double salary){
+        Professor professor = new Professor(name,surname,age,salary);
+        professors.add(professor);
     }
 }
